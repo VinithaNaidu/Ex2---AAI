@@ -1,7 +1,7 @@
-# Experiment-2---Bayes-Classifier
-## Aim:
+## Experiment-2---Bayes-Classifier
+### Aim:
 To implement the inference Burglary P(B| j,⥗m) in alarm problem by using Variable Elimination method in Python.
-## Algorithm:
+### Algorithm:
 ##### Step 1: 
 Define the Bayesian Network structure for alarm problem with 5 random variables, Burglary,Earthquake,John Call,Mary Call and Alarm.
 
@@ -27,8 +27,6 @@ Print the results.
 ```
 Developed By: Vinitha D 
 Reg.No:212222230175
-```
-```
 from pgmpy.models import BayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.inference import VariableElimination
@@ -62,8 +60,6 @@ print(result2)
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/7ac7984e-dec4-4f4b-9ca1-8dbb97e21a52)
-
-
 
 ## Result:
 Thus, Bayesian Inference was successfully determined using Variable Elimination Method.
